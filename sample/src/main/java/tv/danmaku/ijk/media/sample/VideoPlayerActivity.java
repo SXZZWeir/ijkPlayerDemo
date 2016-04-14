@@ -17,20 +17,19 @@
 package tv.danmaku.ijk.media.sample;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
-import tv.danmaku.ijk.media.widget.MediaController;
+import tv.danmaku.ijk.media.widget.MyMediaController;
 import tv.danmaku.ijk.media.widget.VideoView;
 
 public class VideoPlayerActivity extends Activity {
     private VideoView mVideoView;
     private View mBufferingIndicator;
-    private MediaController mMediaController;
+    private MyMediaController mMediaController;
 
-    private String mVideoPath = "http://pili-playback.wscn.wallstcn.com/wscn/chat_51_1222023523_rebirth_wallstcn_com.m3u8?start=0&end=0";
+    private String mVideoPath = "http://hydz.figo.cn/hydz/appdata/video/201604/001_20160411101621889_577246.mp4";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,16 +39,8 @@ public class VideoPlayerActivity extends Activity {
         IjkMediaPlayer.loadLibrariesOnce(null);
         IjkMediaPlayer.native_profileBegin("libijkplayer.so");
 
-        //  mVideoPath = getIntent().getStringExtra("videoPath");
-
-        Intent intent = getIntent();
-        String intentAction = intent.getAction();
-/*        if (!TextUtils.isEmpty(intentAction) && intentAction.equals(Intent.ACTION_VIEW)) {
-            mVideoPath = intent.getDataString();
-        }*/
-
         mBufferingIndicator = findViewById(R.id.buffering_indicator);
-        mMediaController = new MediaController(this);
+        mMediaController = (MyMediaController) findViewById(R.id.contentPanel);
 
         mVideoView = (VideoView) findViewById(R.id.video_view);
         mVideoView.setMediaController(mMediaController);

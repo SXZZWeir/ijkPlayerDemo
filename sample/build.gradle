@@ -9,8 +9,8 @@ android {
 
     defaultConfig {
         applicationId "tv.danmaku.ijk.media.sample"
-        minSdkVersion 9
-        targetSdkVersion 22
+        minSdkVersion 14
+        targetSdkVersion 23
         versionCode 301000
         versionName "0.3.1"
     }
@@ -24,7 +24,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:appcompat-v7:23.2.0'
     compile project(':player-java')
     // need API-21
     // compile project(':player-arm64')

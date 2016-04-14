@@ -2,39 +2,60 @@
 <items version="2" >
 
     <item
-        jar="/Users/zhangyang/Documents/ijkplayer-master/android/ijkplayer/sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/zhangyang/Documents/ijkplayer-master/android/ijkplayer/sample/build/intermediates/pre-dexed/debug/classes-f4355425c852c2a107fc6be725e38892bebbc125.jar" />
+        jar="C:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_bfee328dc5b54817e9e6e54f30699ce768a9d5e7.jar" />
     </item>
     <item
-        jar="/Users/zhangyang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/zhangyang/Documents/ijkplayer-master/android/ijkplayer/sample/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-17c68de9daecad74dac9816ce79afee5ba6c4f7f.jar" />
+        jar="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3e2ca4078b702194bcc83e4f73f2d68e5bad76ff">
+        <dex dex="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\pre-dexed\debug\instant-run_e43e8e58f9ecd606507f48af57d965a09d5393f7.jar" />
     </item>
     <item
-        jar="/Users/zhangyang/Documents/ijkplayer-master/android/ijkplayer/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/zhangyang/Documents/ijkplayer-master/android/ijkplayer/sample/build/intermediates/pre-dexed/debug/classes-4ec2953b2ad0a1f076a8e4cbcba3d9efea486597.jar" />
+        jar="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_1a1bf3fe14662db84f8caf311464005bcd406991.jar" />
     </item>
     <item
-        jar="/Users/zhangyang/Documents/ijkplayer-master/android/ijkplayer/sample/build/intermediates/exploded-aar/ijkplayer/player-java/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7c381780c6fd2bbfec7a355ae2fa2a4a2df60ac6">
-        <dex dex="/Users/zhangyang/Documents/ijkplayer-master/android/ijkplayer/sample/build/intermediates/pre-dexed/debug/classes-0e488d1894fb7d177c8b25f56097bceb039a33fc.jar" />
+        jar="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4cbfe55174abe035df008d77233ba0c5a49368be">
+        <dex dex="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\pre-dexed\debug\instant-run-bootstrap_30958f993412d65faa36c57b9a532cf4afffe253.jar" />
     </item>
     <item
-        jar="/Users/zhangyang/Documents/ijkplayer-master/android/ijkplayer/sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/zhangyang/Documents/ijkplayer-master/android/ijkplayer/sample/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-05d97a25d9823bc3bd9ec6dcfffcdb0731db4f8f.jar" />
+        jar="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_6b2157b118ad42503da44b7ded1f5d28244e8e01.jar" />
+    </item>
+    <item
+        jar="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_a8a827cac205c868a1db6c5cc543010ccb0ab43d.jar" />
+    </item>
+    <item
+        jar="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_44a11b3adedff76708f2ae31bbc7583a77e0768f.jar" />
+    </item>
+    <item
+        jar="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Weir\Github\ijkplayerDemo\sample\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_df024024914daed72ef79c58631a00efd4c4362f.jar" />
     </item>
 
 </items>

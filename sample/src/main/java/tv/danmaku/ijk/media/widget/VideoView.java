@@ -18,22 +18,6 @@
 
 package tv.danmaku.ijk.media.widget;
 
-import java.io.IOException;
-import java.util.List;
-
-import tv.danmaku.ijk.media.player.IMediaPlayer;
-import tv.danmaku.ijk.media.player.IMediaPlayer.OnBufferingUpdateListener;
-import tv.danmaku.ijk.media.player.IMediaPlayer.OnCompletionListener;
-import tv.danmaku.ijk.media.player.IMediaPlayer.OnErrorListener;
-import tv.danmaku.ijk.media.player.IMediaPlayer.OnInfoListener;
-import tv.danmaku.ijk.media.player.IMediaPlayer.OnPreparedListener;
-import tv.danmaku.ijk.media.player.IMediaPlayer.OnSeekCompleteListener;
-import tv.danmaku.ijk.media.player.IMediaPlayer.OnVideoSizeChangedListener;
-import tv.danmaku.ijk.media.player.IjkMediaPlayer;
-import tv.danmaku.ijk.media.player.option.AvFourCC;
-import tv.danmaku.ijk.media.player.option.format.AvFormatOption_HttpDetectRangeSupport;
-import tv.danmaku.ijk.media.sample.R;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -50,6 +34,20 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 
+import java.io.IOException;
+import java.util.List;
+
+import tv.danmaku.ijk.media.player.IMediaPlayer;
+import tv.danmaku.ijk.media.player.IMediaPlayer.OnBufferingUpdateListener;
+import tv.danmaku.ijk.media.player.IMediaPlayer.OnCompletionListener;
+import tv.danmaku.ijk.media.player.IMediaPlayer.OnErrorListener;
+import tv.danmaku.ijk.media.player.IMediaPlayer.OnInfoListener;
+import tv.danmaku.ijk.media.player.IMediaPlayer.OnPreparedListener;
+import tv.danmaku.ijk.media.player.IMediaPlayer.OnSeekCompleteListener;
+import tv.danmaku.ijk.media.player.IMediaPlayer.OnVideoSizeChangedListener;
+import tv.danmaku.ijk.media.player.IjkMediaPlayer;
+import tv.danmaku.ijk.media.sample.R;
+
 /**
  * Displays a video file. The VideoView class can load images from various
  * sources (such as resources or content providers), takes care of computing its
@@ -61,7 +59,7 @@ import android.view.ViewGroup.LayoutParams;
  * {@link #setSubShown(boolean)}
  */
 public class VideoView extends SurfaceView implements
-        MediaController.MediaPlayerControl {
+        MyMediaController.MyMediaPlayerControl {
     private static final String TAG = VideoView.class.getName();
 
     private Uri mUri;
@@ -96,7 +94,7 @@ public class VideoView extends SurfaceView implements
     private int mVideoSarDen;
     private int mSurfaceWidth;
     private int mSurfaceHeight;
-    private MediaController mMediaController;
+    private MyMediaController mMediaController;
     private View mMediaBufferingIndicator;
     private OnCompletionListener mOnCompletionListener;
     private OnPreparedListener mOnPreparedListener;
@@ -289,7 +287,7 @@ public class VideoView extends SurfaceView implements
         }
     }
 
-    public void setMediaController(MediaController controller) {
+    public void setMediaController(MyMediaController controller) {
         if (mMediaController != null)
             mMediaController.hide();
         mMediaController = controller;

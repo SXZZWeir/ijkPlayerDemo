@@ -1,15 +1,26 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#0099cc"
-    tools:context=".PlayerActivity" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#0099cc">
 
-    <tv.danmaku.ijk.media.widget.VideoView
-        android:id="@+id/video_view"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_gravity="center" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ffffff">
+
+        <tv.danmaku.ijk.media.widget.VideoView
+            android:id="@+id/video_view"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"/>
+
+        <tv.danmaku.ijk.media.widget.MyMediaController
+            android:id="@+id/contentPanel"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/buffering_indicator"
@@ -41,4 +52,4 @@
             android:layout_height="60dip" />
     </LinearLayout>
 
-</FrameLayout>
+</LinearLayout>
